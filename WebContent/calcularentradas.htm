@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/cine.css?v=1.0">
+	
+
+  <!-- Jquery UI  -->		
+  <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+
+  <!-- Font Awesome  -->		
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.css">
+  
+  <!-- Custom IconMoon  -->
+  <link rel="stylesheet" type="text/css" href="fonts/iconmoon/style.css">
+
+
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body>	
+	<div id="contenedor">
+		<div id="titulo">
+			<h1>!Calcula tu entrada¡</h1>
+		</div>
+		
+		<div id="datos">
+					<label id="label_dia">Dia: </label>
+					<select name="dia" id="dia" onchange="calcularEntrada();">
+						<option value="lunes">Lunes</option>
+						<option value="martes" selected>Martes</option>
+						<option value="miercoles">Miercoles</option>
+						<option value="jueves">Jueves</option>
+						<option value="viernes">Viernes</option>
+						<option value="sabado">Sabado</option>
+						<option value="domingo">Domingo</option>
+					</select>
+										
+					<!-- Edad  -->
+					<label id="label_edad">Edad: </label>
+					<input type="text" id="edad" name="edad" value="16" 
+						onchange="calcularEntrada();">
+			
+		</div>
+		
+		<div id="imagen"></div>
+		
+		<div id="precio">
+		
+				<h3 id="mostrar_precio">2€</h3>
+				<label id="etiqueta_precio">PRECIO:</label>
+				<!-- <label id="mostrar_precio">2€</label> -->
+		</div>
+	</div>
+	
+	 <script src="js/cine.js"></script>
+</body>
+
+</html>

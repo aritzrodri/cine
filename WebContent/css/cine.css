@@ -1,0 +1,118 @@
+
+/*Css del cine */
+
+
+ /* ------------------------------------------------
+ 				Estilos contenedor
+	 ------------------------------------------------
+ */
+ 
+/* Div contenedor */
+#contenedor
+{
+    width: 300px;
+    height: 400px;
+  	background-image:url('../img/entrada_cine.jpg');
+}
+
+
+  
+ /* ------------------------------------------------
+ 				Division Titulo
+	 ------------------------------------------------
+ */
+ 
+ 
+#titulo
+{
+    width: 100%;
+    height: 50px;
+}
+
+#titulo h1
+{
+	font-size:29px;
+	 text-align: center;	
+	  padding-top: 12px;
+	  color:#61bebb;
+}
+
+ 
+ /* ------------------------------------------------
+ 				Division Datos
+	 ------------------------------------------------
+ */
+ 
+#datos
+{
+    width: 100%;
+    height: 50px;
+}
+
+
+#edad
+	{width: 45px;
+	background-color:black;
+	color:white;}
+
+
+#label_dia, #label_edad
+	{padding-left: 30px;}
+
+
+#dia
+	{margin-top: 16px;
+	background-color:black;
+	color:white;}
+
+  
+ /* ------------------------------------------------
+ 				Division Imagen
+	 ------------------------------------------------
+ */
+ 
+ #imagen
+{
+    width: 100%;
+    height: 160px;
+}
+
+ 
+ /* ------------------------------------------------
+ 				Division Precio
+	 ------------------------------------------------
+ */
+ 
+ #precio
+{	
+	width: 100%;
+    height: 140px;
+	position: relative;
+}
+ 
+/*Etiquetas de la division precio*/ 
+ 
+#etiqueta_precio, #mostrar_precio 
+
+ 	{
+ 	position: absolute;
+	left:50px;		
+	color:white;
+	}
+
+/*Label donde te da el precio que cuesta la entrada*/
+#mostrar_precio
+ 	{
+	 	padding-left: 133px;
+	  	font-size: 70px;
+	  	margin-top: 40px;
+	  	float: left;
+	}
+  
+/*Label que te muestra el texto 'precio:'*/
+#etiqueta_precio
+	{	
+	font-size: 25px;
+	top:75px;
+	}
+    
